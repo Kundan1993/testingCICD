@@ -3,68 +3,52 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-09-03T07:00:06.030Z",
-        "line": 120,
-        "name": "Verify search is being successfully Search records using search APIs",
+        "start_timestamp": "2020-09-03T07:08:02.242Z",
+        "line": 23,
+        "name": "Verify sign in is being successfully login using signIn APIs",
         "description": "",
-        "id": "validating-joining-database-api-s;verify-search-is-being-successfully-search-records-using-search-apis;;2",
+        "id": "validating-joining-database-api-s;verify-sign-in-is-being-successfully-login-using-signin-apis;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 9356785956,
+              "duration": 1804010790,
               "status": "passed"
             },
-            "line": 114,
-            "name": "To search the value \"88\",\"960\",\"1\", Layer is \"interlayer\" and name is \"Material Grade\",\"Joint ID\"",
+            "line": 16,
+            "name": "Add Sign in payload with the email \"kundankotangale@varahitechnologies.com\" and password \"123\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"88\"",
-                  "offset": 20
+                  "val": "\"kundankotangale@varahitechnologies.com\"",
+                  "offset": 35
                 },
                 {
-                  "val": "\"960\"",
+                  "val": "\"123\"",
+                  "offset": 89
+                }
+              ],
+              "location": "StepDefination.add_Sign_in_payload_with_the_email_and_password(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4082752662,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user calls \"signIn\" with \"POST\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"signIn\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"POST\"",
                   "offset": 25
-                },
-                {
-                  "val": "\"1\"",
-                  "offset": 31
-                },
-                {
-                  "val": "\"interlayer\"",
-                  "offset": 45
-                },
-                {
-                  "val": "\"Material Grade\"",
-                  "offset": 70
-                },
-                {
-                  "val": "\"Joint ID\"",
-                  "offset": 87
-                }
-              ],
-              "location": "StepDefination.to_search_the_value_Layer_is_and_name_is(String,String,String,String,String,String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 409441003,
-              "status": "passed"
-            },
-            "line": 115,
-            "name": "user calls \"searchAPI\" with \"GET\" http request",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"searchAPI\"",
-                  "offset": 11
-                },
-                {
-                  "val": "\"GET\"",
-                  "offset": 28
                 }
               ],
               "location": "StepDefination.user_calls_with_http_request(String,String)"
@@ -73,11 +57,10 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: expected:\u003c404\u003e but was:\u003c200\u003e\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:645)\n\tat org.junit.Assert.assertEquals(Assert.java:631)\n\tat stepDefinations.StepDefination.the_API_call_got_success_with_status_code(StepDefination.java:116)\n\tat ✽.the API call got success with status code \"200\"(file:src/test/java/features/joiningdb.feature:116)\n",
-              "duration": 6525530,
-              "status": "failed"
+              "duration": 3376949,
+              "status": "passed"
             },
-            "line": 116,
+            "line": 18,
             "name": "the API call got success with status code \"200\"",
             "match": {
               "arguments": [
@@ -92,11 +75,11 @@
           },
           {
             "result": {
-              "duration": 76569,
-              "status": "skipped"
+              "duration": 611154402,
+              "status": "passed"
             },
-            "line": 117,
-            "name": "\"message\" in response body is \"Succesfully data is search with multiple tags\"",
+            "line": 19,
+            "name": "\"message\" in response body is \"Login successfully.\"",
             "match": {
               "arguments": [
                 {
@@ -104,135 +87,30 @@
                   "offset": 0
                 },
                 {
-                  "val": "\"Succesfully data is search with multiple tags\"",
+                  "val": "\"Login successfully.\"",
                   "offset": 30
                 }
               ],
               "location": "StepDefination.in_response_body_is(String,String)"
             },
             "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@searchAPI"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-09-03T07:00:15.919Z",
-        "line": 121,
-        "name": "Verify search is being successfully Search records using search APIs",
-        "description": "",
-        "id": "validating-joining-database-api-s;verify-search-is-being-successfully-search-records-using-search-apis;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
+          },
           {
             "result": {
-              "duration": 361802376,
+              "duration": 38276193,
               "status": "passed"
             },
-            "line": 114,
-            "name": "To search the value \"888\",\"9608\",\"18\", Layer is \"interlayer1\" and name is \"Material Grade8\",\"Joint ID8\"",
+            "line": 20,
+            "name": "get the authuntication token is for all API",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"888\"",
-                  "offset": 20
-                },
-                {
-                  "val": "\"9608\"",
-                  "offset": 26
-                },
-                {
-                  "val": "\"18\"",
-                  "offset": 33
-                },
-                {
-                  "val": "\"interlayer1\"",
-                  "offset": 48
-                },
-                {
-                  "val": "\"Material Grade8\"",
-                  "offset": 74
-                },
-                {
-                  "val": "\"Joint ID8\"",
-                  "offset": 92
-                }
-              ],
-              "location": "StepDefination.to_search_the_value_Layer_is_and_name_is(String,String,String,String,String,String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 35828756,
-              "status": "passed"
-            },
-            "line": 115,
-            "name": "user calls \"searchAPI\" with \"GET\" http request",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"searchAPI\"",
-                  "offset": 11
-                },
-                {
-                  "val": "\"GET\"",
-                  "offset": 28
-                }
-              ],
-              "location": "StepDefination.user_calls_with_http_request(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "error_message": "java.lang.AssertionError: expected:\u003c404\u003e but was:\u003c200\u003e\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:645)\n\tat org.junit.Assert.assertEquals(Assert.java:631)\n\tat stepDefinations.StepDefination.the_API_call_got_success_with_status_code(StepDefination.java:116)\n\tat ✽.the API call got success with status code \"200\"(file:src/test/java/features/joiningdb.feature:116)\n",
-              "duration": 472327,
-              "status": "failed"
-            },
-            "line": 116,
-            "name": "the API call got success with status code \"200\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"200\"",
-                  "offset": 42
-                }
-              ],
-              "location": "StepDefination.the_API_call_got_success_with_status_code(String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 33448,
-              "status": "skipped"
-            },
-            "line": 117,
-            "name": "\"message\" in response body is \"No record found\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"message\"",
-                  "offset": 0
-                },
-                {
-                  "val": "\"No record found\"",
-                  "offset": 30
-                }
-              ],
-              "location": "StepDefination.in_response_body_is(String,String)"
+              "location": "StepDefination.get_the_authuntication_token_is_for_all_API()"
             },
             "keyword": "And "
           }
         ],
         "tags": [
           {
-            "name": "@searchAPI"
+            "name": "@signin"
           }
         ]
       }
