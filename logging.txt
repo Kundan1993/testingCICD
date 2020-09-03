@@ -11,24 +11,24 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "kundankotangale@varahitechnologies.com",
-    "password": "123"
+    "email": "parth@varahitechnologies.com",
+    "password": "Varahitech#3"
 }
 HTTP/1.1 200 OK
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
-Content-Length: 2109
-ETag: W/"83d-ggg5xXnjK1NNGposvQ7zAHNXwXM"
-Date: Thu, 03 Sep 2020 07:08:08 GMT
+Content-Length: 2108
+ETag: W/"83c-2MzE05Jzsl83txudxmPXCVr8RoQ"
+Date: Thu, 03 Sep 2020 07:59:05 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
 {
     "status": 200,
     "data": {
-        "_id": "5f35091864a1ed18e8b9e13f",
-        "firstname": "Kundan",
+        "_id": "5f350a4d64a1ed18e8b9e140",
+        "firstname": "Parth",
         "lang": "en",
         "role": "Approval_Team",
         "moduleData": {
@@ -251,7 +251,7 @@ Keep-Alive: timeout=5
                 }
             ]
         },
-        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjM1MDkxODY0YTFlZDE4ZThiOWUxM2YiLCJpYXQiOjE1OTkxMTY4ODh9.G-uEr94FbyWiOe0Sswr5fZEvrUuDpmRDsjWrPoI6RWc"
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjM1MGE0ZDY0YTFlZDE4ZThiOWUxNDAiLCJpYXQiOjE1OTkxMTk5NDV9.VdY-n2aF7PC7QXZDSKe9Xowx7sawVSyO0cmEHPT-odA"
     },
     "message": "Login successfully."
 }

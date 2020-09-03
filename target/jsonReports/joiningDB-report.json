@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-09-03T07:08:02.242Z",
+        "start_timestamp": "2020-09-03T07:58:59.295Z",
         "line": 23,
         "name": "Verify sign in is being successfully login using signIn APIs",
         "description": "",
@@ -13,20 +13,20 @@
         "steps": [
           {
             "result": {
-              "duration": 1804010790,
+              "duration": 1891036355,
               "status": "passed"
             },
             "line": 16,
-            "name": "Add Sign in payload with the email \"kundankotangale@varahitechnologies.com\" and password \"123\"",
+            "name": "Add Sign in payload with the email \"parth@varahitechnologies.com\" and password \"Varahitech#3\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"kundankotangale@varahitechnologies.com\"",
+                  "val": "\"parth@varahitechnologies.com\"",
                   "offset": 35
                 },
                 {
-                  "val": "\"123\"",
-                  "offset": 89
+                  "val": "\"Varahitech#3\"",
+                  "offset": 79
                 }
               ],
               "location": "StepDefination.add_Sign_in_payload_with_the_email_and_password(String,String)"
@@ -35,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 4082752662,
+              "duration": 4175164455,
               "status": "passed"
             },
             "line": 17,
@@ -57,7 +57,7 @@
           },
           {
             "result": {
-              "duration": 3376949,
+              "duration": 3480966,
               "status": "passed"
             },
             "line": 18,
@@ -75,7 +75,7 @@
           },
           {
             "result": {
-              "duration": 611154402,
+              "duration": 752235214,
               "status": "passed"
             },
             "line": 19,
@@ -97,7 +97,7 @@
           },
           {
             "result": {
-              "duration": 38276193,
+              "duration": 34467456,
               "status": "passed"
             },
             "line": 20,

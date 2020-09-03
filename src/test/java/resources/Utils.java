@@ -53,7 +53,7 @@ public class Utils {
 	{
 
 		Properties prop =new Properties();
-		FileInputStream fis =new FileInputStream("/media/kundan/Personal/TESTING/Software_testing/API_JoiningDB/src/test/java/resources/global.properties");
+		FileInputStream fis =new FileInputStream("./src/test/java/resources/global.properties");
 		prop.load(fis);
 //		System.out.println(prop.getProperty(key));
 		return prop.getProperty(key);
