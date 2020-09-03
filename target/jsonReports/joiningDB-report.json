@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-08-26T09:53:01.618Z",
+        "start_timestamp": "2020-09-03T07:00:06.030Z",
         "line": 120,
         "name": "Verify search is being successfully Search records using search APIs",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12804842461,
+              "duration": 9356785956,
               "status": "passed"
             },
             "line": 114,
@@ -51,7 +51,7 @@
           },
           {
             "result": {
-              "duration": 3069979895,
+              "duration": 409441003,
               "status": "passed"
             },
             "line": 115,
@@ -73,8 +73,9 @@
           },
           {
             "result": {
-              "duration": 7675554,
-              "status": "passed"
+              "error_message": "java.lang.AssertionError: expected:\u003c404\u003e but was:\u003c200\u003e\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:645)\n\tat org.junit.Assert.assertEquals(Assert.java:631)\n\tat stepDefinations.StepDefination.the_API_call_got_success_with_status_code(StepDefination.java:116)\n\tat ✽.the API call got success with status code \"200\"(file:src/test/java/features/joiningdb.feature:116)\n",
+              "duration": 6525530,
+              "status": "failed"
             },
             "line": 116,
             "name": "the API call got success with status code \"200\"",
@@ -91,8 +92,8 @@
           },
           {
             "result": {
-              "duration": 125825676,
-              "status": "passed"
+              "duration": 76569,
+              "status": "skipped"
             },
             "line": 117,
             "name": "\"message\" in response body is \"Succesfully data is search with multiple tags\"",
@@ -119,7 +120,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-08-26T09:53:17.814Z",
+        "start_timestamp": "2020-09-03T07:00:15.919Z",
         "line": 121,
         "name": "Verify search is being successfully Search records using search APIs",
         "description": "",
@@ -129,7 +130,7 @@
         "steps": [
           {
             "result": {
-              "duration": 380063300,
+              "duration": 361802376,
               "status": "passed"
             },
             "line": 114,
@@ -167,7 +168,7 @@
           },
           {
             "result": {
-              "duration": 1369310430,
+              "duration": 35828756,
               "status": "passed"
             },
             "line": 115,
@@ -189,8 +190,9 @@
           },
           {
             "result": {
-              "duration": 148278,
-              "status": "passed"
+              "error_message": "java.lang.AssertionError: expected:\u003c404\u003e but was:\u003c200\u003e\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:645)\n\tat org.junit.Assert.assertEquals(Assert.java:631)\n\tat stepDefinations.StepDefination.the_API_call_got_success_with_status_code(StepDefination.java:116)\n\tat ✽.the API call got success with status code \"200\"(file:src/test/java/features/joiningdb.feature:116)\n",
+              "duration": 472327,
+              "status": "failed"
             },
             "line": 116,
             "name": "the API call got success with status code \"200\"",
@@ -207,9 +209,8 @@
           },
           {
             "result": {
-              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Succesfully data is search with multiple tags]\u003e but was:\u003c[No record found]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat stepDefinations.StepDefination.in_response_body_is(StepDefination.java:121)\n\tat ✽.\"message\" in response body is \"No record found\"(file:src/test/java/features/joiningdb.feature:117)\n",
-              "duration": 28251543,
-              "status": "failed"
+              "duration": 33448,
+              "status": "skipped"
             },
             "line": 117,
             "name": "\"message\" in response body is \"No record found\"",
