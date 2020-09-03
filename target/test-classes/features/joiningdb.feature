@@ -19,8 +19,8 @@ Scenario Outline:Verify sign in is being successfully login using signIn APIs
 	And "message" in response body is "Login successfully."
 	And get the authuntication token is for all API 
 	Examples: 
-			|email									|pwd  |
-			|kundankotangale@varahitechnologies.com |123  |
+			|email						  |pwd  |
+			|parth@varahitechnologies.com |Varahitech#3  |
 
 @language
 Scenario: Verify if all languages is being retrived using language APIs 
