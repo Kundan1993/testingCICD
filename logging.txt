@@ -1,0 +1,1925 @@
+Request method:	POST
+Request URI:	http://localhost:3006/user/signIn
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "kundankotangale@varahitechnologies.com",
+    "password": "123"
+}
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 2100
+ETag: W/"834-Wzau8GMiu4lL+VkN72SwKZ1NMv8"
+Date: Wed, 26 Aug 2020 09:53:13 GMT
+Connection: keep-alive
+
+{
+    "status": 200,
+    "data": {
+        "_id": "5f35091864a1ed18e8b9e13f",
+        "firstname": "Kundan",
+        "lang": "en",
+        "role": "Approval_Team",
+        "moduleData": {
+            "RoleName": "Approval_Team",
+            "Modules": [
+                {
+                    "moduleName": "search_joint",
+                    "access": "true",
+                    "features": [
+                        {
+                            "autocomplete": [
+                                {
+                                    "access": "true"
+                                }
+                            ],
+                            "input_field": [
+                                {
+                                    "access": "true"
+                                }
+                            ],
+                            "database_access": [
+                                {
+                                    "SEARCH": {
+                                        "access": "true"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "moduleName": "create_new_joint",
+                    "access": "true",
+                    "features": [
+                        {
+                            "add_template": [
+                                {
+                                    "ADD": {
+                                        "access": "true"
+                                    }
+                                },
+                                {
+                                    "DELETE": {
+                                        "access": "true"
+                                    }
+                                }
+                            ],
+                            "database_access": [
+                                {
+                                    "ADD": {
+                                        "access": "true"
+                                    }
+                                }
+                            ],
+                            "searchDB_for_joints": {
+                                "access": "true"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "moduleName": "create_new_worksheet",
+                    "access": "true",
+                    "features": [
+                        {
+                            "add_worksheet": [
+                                {
+                                    "ADD": {
+                                        "access": "true"
+                                    }
+                                }
+                            ],
+                            "database_access": [
+                                {
+                                    "ADD": {
+                                        "access": "true"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "moduleName": "send_to_technician",
+                    "access": "true",
+                    "features": [
+                        {
+                            "input_field": {
+                                "access": "true"
+                            },
+                            "technician_details": {
+                                "access": "true"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "moduleName": "send_for_approval",
+                    "access": "true",
+                    "features": [
+                        {
+                            "technician_inbox": {
+                                "access": "true"
+                            },
+                            "send_worksheet_to_technician_inbox": {
+                                "access": "true"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "moduleName": "search_database",
+                    "access": "true",
+                    "features": [
+                        {
+                            "database_access": [
+                                {
+                                    "SEARCH": {
+                                        "access": "true"
+                                    }
+                                }
+                            ],
+                            "input_field": {
+                                "access": "true"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "moduleName": "approve_joint",
+                    "access": "true",
+                    "features": [
+                        
+                    ]
+                },
+                {
+                    "moduleName": "send_to_engineer",
+                    "access": "true",
+                    "features": [
+                        {
+                            "database_access": [
+                                {
+                                    "SEARCH": {
+                                        "access": "true"
+                                    }
+                                }
+                            ],
+                            "inbuilt_address_book": {
+                                "access": "true"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "moduleName": "create_new_joint_request",
+                    "access": "true",
+                    "features": [
+                        {
+                            "database_access": [
+                                {
+                                    "ADD": {
+                                        "access": "true"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "moduleName": "approvals_list",
+                    "access": "true",
+                    "features": [
+                        {
+                            "approvals": [
+                                {
+                                    "ADD": {
+                                        "access": "true"
+                                    }
+                                },
+                                {
+                                    "DELETE": {
+                                        "access": "true"
+                                    }
+                                }
+                            ],
+                            "database_access": [
+                                {
+                                    "ADD": {
+                                        "access": "true"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "moduleName": "inbox",
+                    "access": "true"
+                },
+                {
+                    "moduleName": "new_job_alert",
+                    "access": "true",
+                    "features": [
+                        {
+                            "new_post_inbox": {
+                                "access": "true"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "moduleName": "language_change",
+                    "access": "true"
+                },
+                {
+                    "moduleName": "downlaod",
+                    "access": "true"
+                }
+            ]
+        },
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjM1MDkxODY0YTFlZDE4ZThiOWUxM2YiLCJpYXQiOjE1OTg0MzU1OTN9.UzfbaYBFbEdFwv86WMEJAhW6LKgrfnI7sNPgn1SlsMw"
+    },
+    "message": "Login successfully."
+}
+Request method:	GET
+Request URI:	http://localhost:3006/records/search/multipletags
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Auth-Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjM1MDkxODY0YTFlZDE4ZThiOWUxM2YiLCJpYXQiOjE1OTg0MzU1OTN9.UzfbaYBFbEdFwv86WMEJAhW6LKgrfnI7sNPgn1SlsMw
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "value": [
+        "88",
+        "960",
+        "1"
+    ],
+    "layer": [
+        "interlayer"
+    ],
+    "name": [
+        "Material Grade",
+        "Joint ID"
+    ]
+}
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 22524
+ETag: W/"57fc-tOg5nwi9h70WBMWSqngMFTRtddE"
+Date: Wed, 26 Aug 2020 09:53:17 GMT
+Connection: keep-alive
+
+{
+    "status": 200,
+    "data": [
+        {
+            "properties": [
+                {
+                    "normProperty": "5f05b79e51ff4d0f00ce175d",
+                    "name": {
+                        "translations": [
+                            {
+                                "language": "4dc17542-c33a-11e9-8d58-0242ac100002",
+                                "name": "Gauge Ø"
+                            }
+                        ]
+                    },
+                    "value": "789",
+                    "unit": "aaa2ba38-c97e-11e9-8aa2-0242ac100002"
+                },
+                {
+                    "normProperty": "5f05b76c51ff4d0f00ce175c",
+                    "name": {
+                        "translations": [
+                            {
+                                "language": "4dc17542-c33a-11e9-8d58-0242ac100002",
+                                "name": "Material Grade"
+                            }
+                        ]
+                    },
+                    "value": "88",
+                    "layer": "interlayer",
+                    "unit": "8819bad4-c3fc-11e9-9a34-0242ac100002"
+                },
+                {
+                    "normProperty": "5f05b76c51ff4d0f00ce175c",
+                    "name": {
+                        "translations": [
+                            {
+                                "language": "4dc17542-c33a-11e9-8d58-0242ac100002",
+                                "name": "Interlayer Grade"
+                            }
+                        ]
+                    },
+                    "value": "88",
+                    "unit": "8819bad4-c3fc-11e9-9a34-0242ac100002"
+                },
+                {
+                    "normProperty": "5f05b76c51ff4d0f00ce175c",
+                    "name": {
+                        "translations": [
+                            {
+                                "language": "4dc17542-c33a-11e9-8d58-0242ac100002",
+                                "name": "Joint ID23"
+                            }
+                        ]
+                    },
+                    "value": "88",
+                    "unit": "8819bad4-c3fc-11e9-9a34-0242ac100002"
+                },
+                {
+                    "normProperty": "5f05b79e51ff4d0f00ce175d",
+                    "name": {
+                        "translations": [
+                            {
+                                "language": "4dc17542-c33a-11e9-8d58-0242ac100002",
+                                "name": "Stack ID"
+                            }
+                        ]
+                    },
+                    "value": "88",
+                    "unit": "aaa2ba38-c97e-11e9-8aa2-0242ac100002"
+                }
+            ],
+            "_id": "5f3267ea255e232ecff1d7a9",
+            "norm": {
+                "entity": "template",
+                "properties": [
+                    
+                ],
+                "subNorms": [
+                    {
+                        "created": "2020-08-04T11:08:59.998Z",
+                        "name": {
+                            "translations": [
+                                {
+                                    "language": "4dc17542-c33a-11e9-8d58-0242ac100002",
+                                    "name": "B"
+                                }
+                            ]
+                        },
+                        "norm": {
+                            "entity": "template",
+                            "properties": [
+                                {
+                                    "uuid": "5f05b79e51ff4d0f00ce175d",
+                                    "name": {
+                                        "translations": [
+                                            {
+                                                "name": "Gauge Ø",
+                                                "language": "4dc17542-c33a-11e9-8d58-0242ac100002"
+                                            }
+                                        ]
+                                    },
+                                    "valueType": "String",
+                                    "unit": {
+                                        "uuid": "aaa2ba38-c97e-11e9-8aa2-0242ac100002",
+                                        "name": {
+                                            "uuid": "aaa2bd94-c97e-11e9-b3bf-0242ac100002",
+                                            "translations": [
+                                                {
+                                                    "uuid": "aaa2c0a0-c97e-11e9-993a-0242ac100002",
+                                                    "language": {
+                                                        "uuid": "4dc17542-c33a-11e9-8d58-0242ac100002",
+                                                        "name": "English",
+                                                        "created": {
+                                                            "date": "2019-08-20 11:04:39.000000",
+                                                            "timezone_type": 3,
+                                                            "timezone": "UTC"
+                                                        },
+                                                        "updated": {
+                                                            "date": "2019-08-20 11:04:39.000000",
+                                                            "timezone_type": 3,
+                                                            "timezone": "UTC"
+                                                        }
+                                                    },
+                                                    "name": "milligram",
+                                                    "created": {
+                                                        "date": "2019-08-28 10:29:07.000000",
+                                                        "timezone_type": 3,
+                                                        "timezone": "UTC"
+                                                    },
+                                                    "updated": {
+                                                        "date": "2019-08-28 10:29:07.000000",
+                                                        "timezone_type": 3,
+                                                        "timezone": "UTC"
+                                                    }
+                                                }
+                                            ],
+                                            "created": {
+                                                "date": "2019-08-28 10:29:07.000000",
+                                                "timezone_type": 3,
+                                                "timezone": "UTC"
+                                            },
+                                            "updated": {
+                                                "date": "2019-08-28 10:29:07.000000",
+                                                "timezone_type": 3,
+                                                "timezone": "UTC"
+                                            }
+                                        },
+                                        "symbol": "mg",
+                                        "created": {
+                                            "date": "2019-08-28 10:29:07.000000",
+                                            "timezone_type": 3,
+                                            "timezone": "UTC"
+                                        },
+                                        "updated": {
+                                            "date": "2019-08-28 10:29:07.000000",
+                                            "timezone_type": 3,
+                                            "timezone": "UTC"
+                                        }
+                                    }
+                                },
+                                {
+                                    "uuid": "5f05b76c51ff4d0f00ce175c",
+                                    "name": {
+                                        "translations": [
+                                            {
+                                                "name": "Material Grade",
+                                                "language": "4dc17542-c33a-11e9-8d58-0242ac100002"
+                                            }
+                                        ]
+                                    },
+                                    "valueType": "String",
+                                    "unit": {
+                                        "uuid": "8819bad4-c3fc-11e9-9a34-0242ac100002",
+                                        "name": {
+                                            "uuid": "8819bdea-c3fc-11e9-b8c4-0242ac100002",
+                                            "translations": [
+                                                {
+                                                    "uuid": "8819c0ec-c3fc-11e9-b914-0242ac100002",
+                                                    "language": {
+                                                        "uuid": "4dc17542-c33a-11e9-8d58-0242ac100002",
+                                                        "name": "English",
+                                                        "created": {
+                                                            "date": "2019-08-20 11:04:39.000000",
+                                                            "timezone_type": 3,
+                                                            "timezone": "UTC"
+                                                        },
+                                                        "updated": {
+                                                            "date": "2019-08-20 11:04:39.000000",
+                                                            "timezone_type": 3,
+                                                            "timezone": "UTC"
+                                                        }
+                                                    },
+                                                    "name": "millimeter",
+                                                    "created": {
+                                                        "date": "2019-08-21 10:14:59.000000",
+                                                        "timezone_type": 3,
+                                                        "timezone": "UTC"
+                                                    },
+                                                    "updated": {
+                                                        "date": "2019-08-21 10:14:59.000000",
+                                                        "timezone_type": 3,
+                                                        "timezone": "UTC"
+                                                    }
+                                                }
+                                            ],
+                                            "created": {
+                                                "date": "2019-08-21 10:14:59.000000",
+                                                "timezone_type": 3,
+                                                "timezone": "UTC"
+                                            },
+                                            "updated": {
+                                                "date": "2019-08-21 10:14:59.000000",
+                                                "timezone_type": 3,
+                                                "timezone": "UTC"
+                                            }
+                                        },
+                                        "symbol": "mm",
+                                        "created": {
+                                            "date": "2019-08-21 10:14:59.000000",
+                                            "timezone_type": 3,
+                                            "timezone": "UTC"
+                                        },
+                                        "updated": {
+                                            "date": "2019-08-21 10:14:59.000000",
+                                            "timezone_type": 3,
+                                            "timezone": "UTC"
+                                        }
+                                    }
+                                },
+                                {
+                                    "uuid": "5f05b76c51ff4d0f00ce175c",
+                                    "name": {
+                                        "translations": [
+                                            {
+                                                "name": "Interlayer Grade",
+                                                "language": "4dc17542-c33a-11e9-8d58-0242ac100002"
+                                            }
+                                        ]
+                                    },
+                                    "valueType": "String",
+                                    "unit": {
+                                        "uuid": "8819bad4-c3fc-11e9-9a34-0242ac100002",
+                                        "name": {
+                                            "uuid": "8819bdea-c3fc-11e9-b8c4-0242ac100002",
+                                            "translations": [
+                                                {
+                                                    "uuid": "8819c0ec-c3fc-11e9-b914-0242ac100002",
+                                                    "language": {
+                                                        "uuid": "4dc17542-c33a-11e9-8d58-0242ac100002",
+                                                        "name": "English",
+                                                        "created": {
+                                                            "date": "2019-08-20 11:04:39.000000",
+                                                            "timezone_type": 3,
+                                                            "timezone": "UTC"
+                                                        },
+                                                        "updated": {
+                                                            "date": "2019-08-20 11:04:39.000000",
+                                                            "timezone_type": 3,
+                                                            "timezone": "UTC"
+                                                        }
+                                                    },
+                                                    "name": "millimeter",
+                                                    "created": {
+                                                        "date": "2019-08-21 10:14:59.000000",
+                                                        "timezone_type": 3,
+                                                        "timezone": "UTC"
+                                                    },
+                                                    "updated": {
+                                                        "date": "2019-08-21 10:14:59.000000",
+                                                        "timezone_type": 3,
+                                                        "timezone": "UTC"
+                                                    }
+                                                }
+                                            ],
+                                            "created": {
+                                                "date": "2019-08-21 10:14:59.000000",
+                                                "timezone_type": 3,
+                                                "timezone": "UTC"
+                                            },
+                                            "updated": {
+                                                "date": "2019-08-21 10:14:59.000000",
+                                                "timezone_type": 3,
+                                                "timezone": "UTC"
+                                            }
+                                        },
+                                        "symbol": "mm",
+                                        "created": {
+                                            "date": "2019-08-21 10:14:59.000000",
+                                            "timezone_type": 3,
+                                            "timezone": "UTC"
+                                        },
+                                        "updated": {
+                                            "date": "2019-08-21 10:14:59.000000",
+                                            "timezone_type": 3,
+                                            "timezone": "UTC"
+                                        }
+                                    }
+                                }
+                            ],
+                            "subNorms": [
+                                
+                            ],
+                            "_id": "5f2941cb1bc6290aa8b6bc4c",
+                            "name": {
+                                "translations": [
+                                    {
+                                        "language": "4dc17542-c33a-11e9-8d58-0242ac100002",
+                                        "name": "TempTwo"
+                                    }
+                                ]
+                            },
+                            "access": {
+                                "creator": {
+                                    "roles": [
+                                        {
+                                            "uuid": "aec0907e-d895-11e9-b535-0242ac100104",
+                                            "azureId": "8c41ead6-1c65-471a-ab07-37e83d27a1f7",
+                                            "name": "Template Designer",
+                                            "created": {
+                                                "date": "2019-09-16 15:21:40.000000",
+                                                "timezone_type": 3,
+                                                "timezone": "UTC"
+                                            },
+                                            "updated": {
+                                                "date": "2019-09-16 15:21:40.000000",
+                                                "timezone_type": 3,
+                                                "timezone": "UTC"
+                                            }
+                                        }
+                                    ],
+                                    "_id": "5efc553962338702f4d57a6e",
+                                    "uuid": "5e6a4e74-d95f-11e9-bfe8-0242ac100104",
+                                    "email": "alex@biancarobotics.com",
+                                    "status": "active",
+                                    "avatar": null,
+                                    "lang": "en",
+                                    "detail": {
+                                        "firstname": "Alex",
+                                        "lastname": "Alex",
+                                        "created": {
+                                            "date": "2019-09-17 15:25:23.000000",
+                                            "timezone_type": 3,
+                                            "timezone": "UTC"
+                                        },
+                                        "updated": {
+                                            "date": "2019-09-17 15:25:23.000000",
+                                            "timezone_type": 3,
+                                            "timezone": "UTC"
+                                        }
+                                    },
+                                    "created": {
+                                        "date": "2019-09-17 15:25:23.000000",
+                                        "timezone_type": 3,
+                                        "timezone": "UTC"
+                                    },
+                                    "updated": {
+                                        "date": "2019-09-17 15:25:24.000000",
+                                        "timezone_type": 3,
+                                        "timezone": "UTC"
+                                    },
+                                    "_links": {
+                                        "self": {
+                                            "href": "https://joiningdevelop.azurewebsites.net/user/5e6a4e74-d95f-11e9-bfe8-0242ac100104"
+                                        }
+                                    }
+                                },
+                                "members": [
+                                    {
+                                        "level": "CAN_DELETE",
+                                        "user": {
+                                            "roles": [
+                                                {
+                                                    "uuid": "aec0907e-d895-11e9-b535-0242ac100104",
+                                                    "azureId": "8c41ead6-1c65-471a-ab07-37e83d27a1f7",
+                                                    "name": "Template Designer",
+                                                    "created": {
+                                                        "date": "2019-09-16 15:21:40.000000",
+                                                        "timezone_type": 3,
+                                                        "timezone": "UTC"
+                                                    },
+                                                    "updated": {
+                                                        "date": "2019-09-16 15:21:40.000000",
+                                                        "timezone_type": 3,
+                                                        "timezone": "UTC"
+                                                    }
+                                                }
+                                            ],
+                                            "_id": "5efc553962338702f4d57a6e",
+                                            "uuid": "5e6a4e74-d95f-11e9-bfe8-0242ac100104",
+                                            "email": "alex@biancarobotics.com",
+                                            "status": "active",
+                                            "avatar": null,
+                                            "lang": "en",
+                                            "detail": {
+                                                "firstname": "Alex",
+                                                "lastname": "Alex",
+                                                "created": {
+                                                    "date": "2019-09-17 15:25:23.000000",
+                                                    "timezone_type": 3,
+                                                    "timezone": "UTC"
+                                                },
+                                                "updated": {
+                                                    "date": "2019-09-17 15:25:23.000000",
+                                                    "timezone_type": 3,
+                                                    "timezone": "UTC"
+                                                }
+                                            },
+                                            "created": {
+                                                "date": "2019-09-17 15:25:23.000000",
+                                                "timezone_type": 3,
+                                                "timezone": "UTC"
+                                            },
+                                            "updated": {
+                                                "date": "2019-09-17 15:25:24.000000",
+                                                "timezone_type": 3,
+                                                "timezone": "UTC"
+                                            },
+                                            "_links": {
+                                                "self": {
+                                                    "href": "https://joiningdevelop.azurewebsites.net/user/5e6a4e74-d95f-11e9-bfe8-0242ac100104"
+                                                }
+                                            }
+                                        },
+                                        "uuid": ""
+                                    }
+                                ],
+                                "owner": {
+                                    "roles": [
+                                        {
+                                            "uuid": "aec0907e-d895-11e9-b535-0242ac100104",
+                                            "azureId": "8c41ead6-1c65-471a-ab07-37e83d27a1f7",
+                                            "name": "Template Designer",
+                                            "created": {
+                                                "date": "2019-09-16 15:21:40.000000",
+                                                "timezone_type": 3,
+                                                "timezone": "UTC"
+                                            },
+                                            "updated": {
+                                                "date": "2019-09-16 15:21:40.000000",
+                                                "timezone_type": 3,
+                                                "timezone": "UTC"
+                                            }
+                                        }
+                                    ],
+                                    "_id": "5efc553962338702f4d57a6e",
+                                    "uuid": "5e6a4e74-d95f-11e9-bfe8-0242ac100104",
+                                    "email": "alex@biancarobotics.com",
+                                    "status": "active",
+                                    "avatar": null,
+                                    "lang": "en",
+                                    "detail": {
+                                        "firstname": "Alex",
+                                        "lastname": "Alex",
+                                        "created": {
+                                            "date": "2019-09-17 15:25:23.000000",
+                                            "timezone_type": 3,
+                                            "timezone": "UTC"
+                                        },
+                                        "updated": {
+                                            "date": "2019-09-17 15:25:23.000000",
+                                            "timezone_type": 3,
+                                            "timezone": "UTC"
+                                        }
+                                    },
+                                    "created": {
+                                        "date": "2019-09-17 15:25:23.000000",
+                                        "timezone_type": 3,
+                                        "timezone": "UTC"
+                                    },
+                                    "updated": {
+                                        "date": "2019-09-17 15:25:24.000000",
+                                        "timezone_type": 3,
+                                        "timezone": "UTC"
+                                    },
+                                    "_links": {
+                                        "self": {
+                                            "href": "https://joiningdevelop.azurewebsites.net/user/5e6a4e74-d95f-11e9-bfe8-0242ac100104"
+                                        }
+                                    }
+                                },
+                                "visibility": "public"
+                            },
+                            "created": "2020-08-04T11:08:59.998Z",
+                            "updated": "2020-08-04T11:08:59.998Z",
+                            "__v": 0
+                        },
+                        "updated": "2020-08-04T11:08:59.998Z",
+                        "_id": "5f2941cb1bc6290aa8b6bc4c"
+                    },
+                    {
+                        "created": "2020-08-04T11:08:07.108Z",
+                        "name": {
+                            "translations": [
+                                {
+                                    "language": "4dc17542-c33a-11e9-8d58-0242ac100002",
+                                    "name": "A"
+                                }
+                            ]
+                        },
+                        "norm": {
+                            "entity": "template",
+                            "properties": [
+                                {
+                                    "uuid": "5f05b76c51ff4d0f00ce175c",
+                                    "name": {
+                                        "translations": [
+                                            {
+                                                "name": "Joint ID23",
+                                                "language": "4dc17542-c33a-11e9-8d58-0242ac100002"
+                                            }
+                                        ]
+                                    },
+                                    "valueType": "Number",
+                                    "unit": {
+                                        "uuid": "8819bad4-c3fc-11e9-9a34-0242ac100002",
+                                        "name": {
+                                            "uuid": "8819bdea-c3fc-11e9-b8c4-0242ac100002",
+                                            "translations": [
+                                                {
+                                                    "uuid": "8819c0ec-c3fc-11e9-b914-0242ac100002",
+                                                    "language": {
+                                                        "uuid": "4dc17542-c33a-11e9-8d58-0242ac100002",
+                                                        "name": "English",
+                                                        "created": {
+                                                            "date": "2019-08-20 11:04:39.000000",
+                                                            "timezone_type": 3,
+                                                            "timezone": "UTC"
+                                                        },
+                                                        "updated": {
+                                                            "date": "2019-08-20 11:04:39.000000",
+                                                            "timezone_type": 3,
+                                                            "timezone": "UTC"
+                                                        }
+                                                    },
+                                                    "name": "millimeter",
+                                                    "created": {
+                                                        "date": "2019-08-21 10:14:59.000000",
+                                                        "timezone_type": 3,
+                                                        "timezone": "UTC"
+                                                    },
+                                                    "updated": {
+                                                        "date": "2019-08-21 10:14:59.000000",
+                                                        "timezone_type": 3,
+                                                        "timezone": "UTC"
+                                                    }
+                                                }
+                                            ],
+                                            "created": {
+                                                "date": "2019-08-21 10:14:59.000000",
+                                                "timezone_type": 3,
+                                                "timezone": "UTC"
+                                            },
+                                            "updated": {
+                                                "date": "2019-08-21 10:14:59.000000",
+                                                "timezone_type": 3,
+                                                "timezone": "UTC"
+                                            }
+                                        },
+                                        "symbol": "mm",
+                                        "created": {
+                                            "date": "2019-08-21 10:14:59.000000",
+                                            "timezone_type": 3,
+                                            "timezone": "UTC"
+                                        },
+                                        "updated": {
+                                            "date": "2019-08-21 10:14:59.000000",
+                                            "timezone_type": 3,
+                                            "timezone": "UTC"
+                                        }
+                                    }
+                                },
+                                {
+                                    "uuid": "5f05b79e51ff4d0f00ce175d",
+                                    "name": {
+                                        "translations": [
+                                            {
+                                                "name": "Stack ID",
+                                                "language": "4dc17542-c33a-11e9-8d58-0242ac100002"
+                                            }
+                                        ]
+                                    },
+                                    "valueType": "Number",
+                                    "unit": {
+                                        "uuid": "aaa2ba38-c97e-11e9-8aa2-0242ac100002",
+                                        "name": {
+                                            "uuid": "aaa2bd94-c97e-11e9-b3bf-0242ac100002",
+                                            "translations": [
+                                                {
+                                                    "uuid": "aaa2c0a0-c97e-11e9-993a-0242ac100002",
+                                                    "language": {
+                                                        "uuid": "4dc17542-c33a-11e9-8d58-0242ac100002",
+                                                        "name": "English",
+                                                        "created": {
+                                                            "date": "2019-08-20 11:04:39.000000",
+                                                            "timezone_type": 3,
+                                                            "timezone": "UTC"
+                                                        },
+                                                        "updated": {
+                                                            "date": "2019-08-20 11:04:39.000000",
+                                                            "timezone_type": 3,
+                                                            "timezone": "UTC"
+                                                        }
+                                                    },
+                                                    "name": "milligram",
+                                                    "created": {
+                                                        "date": "2019-08-28 10:29:07.000000",
+                                                        "timezone_type": 3,
+                                                        "timezone": "UTC"
+                                                    },
+                                                    "updated": {
+                                                        "date": "2019-08-28 10:29:07.000000",
+                                                        "timezone_type": 3,
+                                                        "timezone": "UTC"
+                                                    }
+                                                }
+                                            ],
+                                            "created": {
+                                                "date": "2019-08-28 10:29:07.000000",
+                                                "timezone_type": 3,
+                                                "timezone": "UTC"
+                                            },
+                                            "updated": {
+                                                "date": "2019-08-28 10:29:07.000000",
+                                                "timezone_type": 3,
+                                                "timezone": "UTC"
+                                            }
+                                        },
+                                        "symbol": "mg",
+                                        "created": {
+                                            "date": "2019-08-28 10:29:07.000000",
+                                            "timezone_type": 3,
+                                            "timezone": "UTC"
+                                        },
+                                        "updated": {
+                                            "date": "2019-08-28 10:29:07.000000",
+                                            "timezone_type": 3,
+                                            "timezone": "UTC"
+                                        }
+                                    }
+                                }
+                            ],
+                            "subNorms": [
+                                
+                            ],
+                            "_id": "5f2941971bc6290aa8b6bc4b",
+                            "name": {
+                                "translations": [
+                                    {
+                                        "language": "4dc17542-c33a-11e9-8d58-0242ac100002",
+                                        "name": "TempOne"
+                                    }
+                                ]
+                            },
+                            "access": {
+                                "creator": {
+                                    "roles": [
+                                        {
+                                            "uuid": "aec0907e-d895-11e9-b535-0242ac100104",
+                                            "azureId": "8c41ead6-1c65-471a-ab07-37e83d27a1f7",
+                                            "name": "Template Designer",
+                                            "created": {
+                                                "date": "2019-09-16 15:21:40.000000",
+                                                "timezone_type": 3,
+                                                "timezone": "UTC"
+                                            },
+                                            "updated": {
+                                                "date": "2019-09-16 15:21:40.000000",
+                                                "timezone_type": 3,
+                                                "timezone": "UTC"
+                                            }
+                                        }
+                                    ],
+                                    "_id": "5efc553962338702f4d57a6e",
+                                    "uuid": "5e6a4e74-d95f-11e9-bfe8-0242ac100104",
+                                    "email": "alex@biancarobotics.com",
+                                    "status": "active",
+                                    "avatar": null,
+                                    "lang": "en",
+                                    "detail": {
+                                        "firstname": "Alex",
+                                        "lastname": "Alex",
+                                        "created": {
+                                            "date": "2019-09-17 15:25:23.000000",
+                                            "timezone_type": 3,
+                                            "timezone": "UTC"
+                                        },
+                                        "updated": {
+                                            "date": "2019-09-17 15:25:23.000000",
+                                            "timezone_type": 3,
+                                            "timezone": "UTC"
+                                        }
+                                    },
+                                    "created": {
+                                        "date": "2019-09-17 15:25:23.000000",
+                                        "timezone_type": 3,
+                                        "timezone": "UTC"
+                                    },
+                                    "updated": {
+                                        "date": "2019-09-17 15:25:24.000000",
+                                        "timezone_type": 3,
+                                        "timezone": "UTC"
+                                    },
+                                    "_links": {
+                                        "self": {
+                                            "href": "https://joiningdevelop.azurewebsites.net/user/5e6a4e74-d95f-11e9-bfe8-0242ac100104"
+                                        }
+                                    }
+                                },
+                                "members": [
+                                    {
+                                        "level": "CAN_DELETE",
+                                        "user": {
+                                            "roles": [
+                                                {
+                                                    "uuid": "aec0907e-d895-11e9-b535-0242ac100104",
+                                                    "azureId": "8c41ead6-1c65-471a-ab07-37e83d27a1f7",
+                                                    "name": "Template Designer",
+                                                    "created": {
+                                                        "date": "2019-09-16 15:21:40.000000",
+                                                        "timezone_type": 3,
+                                                        "timezone": "UTC"
+                                                    },
+                                                    "updated": {
+                                                        "date": "2019-09-16 15:21:40.000000",
+                                                        "timezone_type": 3,
+                                                        "timezone": "UTC"
+                                                    }
+                                                }
+                                            ],
+                                            "_id": "5efc553962338702f4d57a6e",
+                                            "uuid": "5e6a4e74-d95f-11e9-bfe8-0242ac100104",
+                                            "email": "alex@biancarobotics.com",
+                                            "status": "active",
+                                            "avatar": null,
+                                            "lang": "en",
+                                            "detail": {
+                                                "firstname": "Alex",
+                                                "lastname": "Alex",
+                                                "created": {
+                                                    "date": "2019-09-17 15:25:23.000000",
+                                                    "timezone_type": 3,
+                                                    "timezone": "UTC"
+                                                },
+                                                "updated": {
+                                                    "date": "2019-09-17 15:25:23.000000",
+                                                    "timezone_type": 3,
+                                                    "timezone": "UTC"
+                                                }
+                                            },
+                                            "created": {
+                                                "date": "2019-09-17 15:25:23.000000",
+                                                "timezone_type": 3,
+                                                "timezone": "UTC"
+                                            },
+                                            "updated": {
+                                                "date": "2019-09-17 15:25:24.000000",
+                                                "timezone_type": 3,
+                                                "timezone": "UTC"
+                                            },
+                                            "_links": {
+                                                "self": {
+                                                    "href": "https://joiningdevelop.azurewebsites.net/user/5e6a4e74-d95f-11e9-bfe8-0242ac100104"
+                                                }
+                                            }
+                                        },
+                                        "uuid": ""
+                                    }
+                                ],
+                                "owner": {
+                                    "roles": [
+                                        {
+                                            "uuid": "aec0907e-d895-11e9-b535-0242ac100104",
+                                            "azureId": "8c41ead6-1c65-471a-ab07-37e83d27a1f7",
+                                            "name": "Template Designer",
+                                            "created": {
+                                                "date": "2019-09-16 15:21:40.000000",
+                                                "timezone_type": 3,
+                                                "timezone": "UTC"
+                                            },
+                                            "updated": {
+                                                "date": "2019-09-16 15:21:40.000000",
+                                                "timezone_type": 3,
+                                                "timezone": "UTC"
+                                            }
+                                        }
+                                    ],
+                                    "_id": "5efc553962338702f4d57a6e",
+                                    "uuid": "5e6a4e74-d95f-11e9-bfe8-0242ac100104",
+                                    "email": "alex@biancarobotics.com",
+                                    "status": "active",
+                                    "avatar": null,
+                                    "lang": "en",
+                                    "detail": {
+                                        "firstname": "Alex",
+                                        "lastname": "Alex",
+                                        "created": {
+                                            "date": "2019-09-17 15:25:23.000000",
+                                            "timezone_type": 3,
+                                            "timezone": "UTC"
+                                        },
+                                        "updated": {
+                                            "date": "2019-09-17 15:25:23.000000",
+                                            "timezone_type": 3,
+                                            "timezone": "UTC"
+                                        }
+                                    },
+                                    "created": {
+                                        "date": "2019-09-17 15:25:23.000000",
+                                        "timezone_type": 3,
+                                        "timezone": "UTC"
+                                    },
+                                    "updated": {
+                                        "date": "2019-09-17 15:25:24.000000",
+                                        "timezone_type": 3,
+                                        "timezone": "UTC"
+                                    },
+                                    "_links": {
+                                        "self": {
+                                            "href": "https://joiningdevelop.azurewebsites.net/user/5e6a4e74-d95f-11e9-bfe8-0242ac100104"
+                                        }
+                                    }
+                                },
+                                "visibility": "public"
+                            },
+                            "created": "2020-08-04T11:08:07.108Z",
+                            "updated": "2020-08-04T11:08:07.108Z",
+                            "__v": 0
+                        },
+                        "updated": "2020-08-04T11:08:07.108Z",
+                        "_id": "5f2941971bc6290aa8b6bc4b"
+                    }
+                ],
+                "_id": "5f29421f1bc6290aa8b6bc4d",
+                "name": {
+                    "translations": [
+                        {
+                            "language": "4dc17542-c33a-11e9-8d58-0242ac100002",
+                            "name": "TempMain"
+                        }
+                    ]
+                },
+                "access": {
+                    "creator": {
+                        "roles": [
+                            {
+                                "uuid": "aec0907e-d895-11e9-b535-0242ac100104",
+                                "azureId": "8c41ead6-1c65-471a-ab07-37e83d27a1f7",
+                                "name": "Template Designer",
+                                "created": {
+                                    "date": "2019-09-16 15:21:40.000000",
+                                    "timezone_type": 3,
+                                    "timezone": "UTC"
+                                },
+                                "updated": {
+                                    "date": "2019-09-16 15:21:40.000000",
+                                    "timezone_type": 3,
+                                    "timezone": "UTC"
+                                }
+                            }
+                        ],
+                        "_id": "5efc553962338702f4d57a6e",
+                        "uuid": "5e6a4e74-d95f-11e9-bfe8-0242ac100104",
+                        "email": "alex@biancarobotics.com",
+                        "status": "active",
+                        "avatar": null,
+                        "lang": "en",
+                        "detail": {
+                            "firstname": "Alex",
+                            "lastname": "Alex",
+                            "created": {
+                                "date": "2019-09-17 15:25:23.000000",
+                                "timezone_type": 3,
+                                "timezone": "UTC"
+                            },
+                            "updated": {
+                                "date": "2019-09-17 15:25:23.000000",
+                                "timezone_type": 3,
+                                "timezone": "UTC"
+                            }
+                        },
+                        "created": {
+                            "date": "2019-09-17 15:25:23.000000",
+                            "timezone_type": 3,
+                            "timezone": "UTC"
+                        },
+                        "updated": {
+                            "date": "2019-09-17 15:25:24.000000",
+                            "timezone_type": 3,
+                            "timezone": "UTC"
+                        },
+                        "_links": {
+                            "self": {
+                                "href": "https://joiningdevelop.azurewebsites.net/user/5e6a4e74-d95f-11e9-bfe8-0242ac100104"
+                            }
+                        }
+                    },
+                    "members": [
+                        {
+                            "level": "CAN_DELETE",
+                            "user": {
+                                "roles": [
+                                    {
+                                        "uuid": "aec0907e-d895-11e9-b535-0242ac100104",
+                                        "azureId": "8c41ead6-1c65-471a-ab07-37e83d27a1f7",
+                                        "name": "Template Designer",
+                                        "created": {
+                                            "date": "2019-09-16 15:21:40.000000",
+                                            "timezone_type": 3,
+                                            "timezone": "UTC"
+                                        },
+                                        "updated": {
+                                            "date": "2019-09-16 15:21:40.000000",
+                                            "timezone_type": 3,
+                                            "timezone": "UTC"
+                                        }
+                                    }
+                                ],
+                                "_id": "5efc553962338702f4d57a6e",
+                                "uuid": "5e6a4e74-d95f-11e9-bfe8-0242ac100104",
+                                "email": "alex@biancarobotics.com",
+                                "status": "active",
+                                "avatar": null,
+                                "lang": "en",
+                                "detail": {
+                                    "firstname": "Alex",
+                                    "lastname": "Alex",
+                                    "created": {
+                                        "date": "2019-09-17 15:25:23.000000",
+                                        "timezone_type": 3,
+                                        "timezone": "UTC"
+                                    },
+                                    "updated": {
+                                        "date": "2019-09-17 15:25:23.000000",
+                                        "timezone_type": 3,
+                                        "timezone": "UTC"
+                                    }
+                                },
+                                "created": {
+                                    "date": "2019-09-17 15:25:23.000000",
+                                    "timezone_type": 3,
+                                    "timezone": "UTC"
+                                },
+                                "updated": {
+                                    "date": "2019-09-17 15:25:24.000000",
+                                    "timezone_type": 3,
+                                    "timezone": "UTC"
+                                },
+                                "_links": {
+                                    "self": {
+                                        "href": "https://joiningdevelop.azurewebsites.net/user/5e6a4e74-d95f-11e9-bfe8-0242ac100104"
+                                    }
+                                }
+                            },
+                            "uuid": ""
+                        }
+                    ],
+                    "owner": {
+                        "roles": [
+                            {
+                                "uuid": "aec0907e-d895-11e9-b535-0242ac100104",
+                                "azureId": "8c41ead6-1c65-471a-ab07-37e83d27a1f7",
+                                "name": "Template Designer",
+                                "created": {
+                                    "date": "2019-09-16 15:21:40.000000",
+                                    "timezone_type": 3,
+                                    "timezone": "UTC"
+                                },
+                                "updated": {
+                                    "date": "2019-09-16 15:21:40.000000",
+                                    "timezone_type": 3,
+                                    "timezone": "UTC"
+                                }
+                            }
+                        ],
+                        "_id": "5efc553962338702f4d57a6e",
+                        "uuid": "5e6a4e74-d95f-11e9-bfe8-0242ac100104",
+                        "email": "alex@biancarobotics.com",
+                        "status": "active",
+                        "avatar": null,
+                        "lang": "en",
+                        "detail": {
+                            "firstname": "Alex",
+                            "lastname": "Alex",
+                            "created": {
+                                "date": "2019-09-17 15:25:23.000000",
+                                "timezone_type": 3,
+                                "timezone": "UTC"
+                            },
+                            "updated": {
+                                "date": "2019-09-17 15:25:23.000000",
+                                "timezone_type": 3,
+                                "timezone": "UTC"
+                            }
+                        },
+                        "created": {
+                            "date": "2019-09-17 15:25:23.000000",
+                            "timezone_type": 3,
+                            "timezone": "UTC"
+                        },
+                        "updated": {
+                            "date": "2019-09-17 15:25:24.000000",
+                            "timezone_type": 3,
+                            "timezone": "UTC"
+                        },
+                        "_links": {
+                            "self": {
+                                "href": "https://joiningdevelop.azurewebsites.net/user/5e6a4e74-d95f-11e9-bfe8-0242ac100104"
+                            }
+                        }
+                    },
+                    "visibility": "public"
+                },
+                "created": "2020-08-04T11:10:23.837Z",
+                "updated": "2020-08-04T11:10:23.837Z",
+                "__v": 0
+            },
+            "access": {
+                "creator": {
+                    "roles": [
+                        {
+                            "uuid": "dad85a42-d896-11e9-ae73-0242ac100104",
+                            "azureId": "0d52ada8-5b9b-4a77-8b39-a111bdc5c26b",
+                            "name": "Record Editor",
+                            "created": {
+                                "date": "2019-09-16 15:30:03.000000",
+                                "timezone_type": 3,
+                                "timezone": "UTC"
+                            },
+                            "updated": {
+                                "date": "2019-09-16 15:30:03.000000",
+                                "timezone_type": 3,
+                                "timezone": "UTC"
+                            }
+                        },
+                        {
+                            "uuid": "ed5a1384-da0a-11e9-a763-0242ac100104",
+                            "azureId": "5744bf4b-807d-4041-a177-3b5a6ddeb390",
+                            "name": "Parth",
+                            "created": {
+                                "date": "2019-09-18 11:53:27.000000",
+                                "timezone_type": 3,
+                                "timezone": "UTC"
+                            },
+                            "updated": {
+                                "date": "2019-09-18 11:53:27.000000",
+                                "timezone_type": 3,
+                                "timezone": "UTC"
+                            }
+                        },
+                        {
+                            "uuid": "aec0907e-d895-11e9-b535-0242ac100104",
+                            "azureId": "8c41ead6-1c65-471a-ab07-37e83d27a1f7",
+                            "name": "Template Designer",
+                            "created": {
+                                "date": "2019-09-16 15:21:40.000000",
+                                "timezone_type": 3,
+                                "timezone": "UTC"
+                            },
+                            "updated": {
+                                "date": "2019-09-16 15:21:40.000000",
+                                "timezone_type": 3,
+                                "timezone": "UTC"
+                            }
+                        },
+                        {
+                            "uuid": "ed5a16ae-da0a-11e9-b772-0242ac100104",
+                            "azureId": "b9cd75ae-3c15-4096-acdd-22fb73b6b626",
+                            "name": "InfoteQ + Bianca Robotics",
+                            "created": {
+                                "date": "2019-09-18 11:53:27.000000",
+                                "timezone_type": 3,
+                                "timezone": "UTC"
+                            },
+                            "updated": {
+                                "date": "2019-09-18 11:53:27.000000",
+                                "timezone_type": 3,
+                                "timezone": "UTC"
+                            }
+                        }
+                    ],
+                    "_id": "5f2aa418e55e2b2614061da3",
+                    "uuid": "ab53f964-da2d-11e9-b3ab-0242ac100104",
+                    "email": "parth@varahitechnologies.com",
+                    "status": "active",
+                    "avatar": null,
+                    "lang": "en",
+                    "detail": {
+                        "firstname": "Parth",
+                        "lastname": "Pandya",
+                        "created": {
+                            "date": "2019-09-18 16:02:09.000000",
+                            "timezone_type": 3,
+                            "timezone": "UTC"
+                        },
+                        "updated": {
+                            "date": "2019-09-18 16:02:09.000000",
+                            "timezone_type": 3,
+                            "timezone": "UTC"
+                        }
+                    },
+                    "created": {
+                        "date": "2019-09-18 16:02:09.000000",
+                        "timezone_type": 3,
+                        "timezone": "UTC"
+                    },
+                    "updated": {
+                        "date": "2019-09-18 16:02:09.000000",
+                        "timezone_type": 3,
+                        "timezone": "UTC"
+                    },
+                    "_links": {
+                        "self": {
+                            "href": "https://joiningdevelop.azurewebsites.net/user/ab53f964-da2d-11e9-b3ab-0242ac100104"
+                        }
+                    }
+                },
+                "members": [
+                    {
+                        "level": "CAN_DELETE",
+                        "user": {
+                            "roles": [
+                                {
+                                    "uuid": "dad85a42-d896-11e9-ae73-0242ac100104",
+                                    "azureId": "0d52ada8-5b9b-4a77-8b39-a111bdc5c26b",
+                                    "name": "Record Editor",
+                                    "created": {
+                                        "date": "2019-09-16 15:30:03.000000",
+                                        "timezone_type": 3,
+                                        "timezone": "UTC"
+                                    },
+                                    "updated": {
+                                        "date": "2019-09-16 15:30:03.000000",
+                                        "timezone_type": 3,
+                                        "timezone": "UTC"
+                                    }
+                                },
+                                {
+                                    "uuid": "ed5a1384-da0a-11e9-a763-0242ac100104",
+                                    "azureId": "5744bf4b-807d-4041-a177-3b5a6ddeb390",
+                                    "name": "Parth",
+                                    "created": {
+                                        "date": "2019-09-18 11:53:27.000000",
+                                        "timezone_type": 3,
+                                        "timezone": "UTC"
+                                    },
+                                    "updated": {
+                                        "date": "2019-09-18 11:53:27.000000",
+                                        "timezone_type": 3,
+                                        "timezone": "UTC"
+                                    }
+                                },
+                                {
+                                    "uuid": "aec0907e-d895-11e9-b535-0242ac100104",
+                                    "azureId": "8c41ead6-1c65-471a-ab07-37e83d27a1f7",
+                                    "name": "Template Designer",
+                                    "created": {
+                                        "date": "2019-09-16 15:21:40.000000",
+                                        "timezone_type": 3,
+                                        "timezone": "UTC"
+                                    },
+                                    "updated": {
+                                        "date": "2019-09-16 15:21:40.000000",
+                                        "timezone_type": 3,
+                                        "timezone": "UTC"
+                                    }
+                                },
+                                {
+                                    "uuid": "ed5a16ae-da0a-11e9-b772-0242ac100104",
+                                    "azureId": "b9cd75ae-3c15-4096-acdd-22fb73b6b626",
+                                    "name": "InfoteQ + Bianca Robotics",
+                                    "created": {
+                                        "date": "2019-09-18 11:53:27.000000",
+                                        "timezone_type": 3,
+                                        "timezone": "UTC"
+                                    },
+                                    "updated": {
+                                        "date": "2019-09-18 11:53:27.000000",
+                                        "timezone_type": 3,
+                                        "timezone": "UTC"
+                                    }
+                                }
+                            ],
+                            "_id": "5f2aa418e55e2b2614061da3",
+                            "uuid": "ab53f964-da2d-11e9-b3ab-0242ac100104",
+                            "email": "parth@varahitechnologies.com",
+                            "status": "active",
+                            "avatar": null,
+                            "lang": "en",
+                            "detail": {
+                                "firstname": "Parth",
+                                "lastname": "Pandya",
+                                "created": {
+                                    "date": "2019-09-18 16:02:09.000000",
+                                    "timezone_type": 3,
+                                    "timezone": "UTC"
+                                },
+                                "updated": {
+                                    "date": "2019-09-18 16:02:09.000000",
+                                    "timezone_type": 3,
+                                    "timezone": "UTC"
+                                }
+                            },
+                            "created": {
+                                "date": "2019-09-18 16:02:09.000000",
+                                "timezone_type": 3,
+                                "timezone": "UTC"
+                            },
+                            "updated": {
+                                "date": "2019-09-18 16:02:09.000000",
+                                "timezone_type": 3,
+                                "timezone": "UTC"
+                            },
+                            "_links": {
+                                "self": {
+                                    "href": "https://joiningdevelop.azurewebsites.net/user/ab53f964-da2d-11e9-b3ab-0242ac100104"
+                                }
+                            }
+                        },
+                        "uuid": ""
+                    }
+                ],
+                "owner": {
+                    "roles": [
+                        {
+                            "uuid": "dad85a42-d896-11e9-ae73-0242ac100104",
+                            "azureId": "0d52ada8-5b9b-4a77-8b39-a111bdc5c26b",
+                            "name": "Record Editor",
+                            "created": {
+                                "date": "2019-09-16 15:30:03.000000",
+                                "timezone_type": 3,
+                                "timezone": "UTC"
+                            },
+                            "updated": {
+                                "date": "2019-09-16 15:30:03.000000",
+                                "timezone_type": 3,
+                                "timezone": "UTC"
+                            }
+                        },
+                        {
+                            "uuid": "ed5a1384-da0a-11e9-a763-0242ac100104",
+                            "azureId": "5744bf4b-807d-4041-a177-3b5a6ddeb390",
+                            "name": "Parth",
+                            "created": {
+                                "date": "2019-09-18 11:53:27.000000",
+                                "timezone_type": 3,
+                                "timezone": "UTC"
+                            },
+                            "updated": {
+                                "date": "2019-09-18 11:53:27.000000",
+                                "timezone_type": 3,
+                                "timezone": "UTC"
+                            }
+                        },
+                        {
+                            "uuid": "aec0907e-d895-11e9-b535-0242ac100104",
+                            "azureId": "8c41ead6-1c65-471a-ab07-37e83d27a1f7",
+                            "name": "Template Designer",
+                            "created": {
+                                "date": "2019-09-16 15:21:40.000000",
+                                "timezone_type": 3,
+                                "timezone": "UTC"
+                            },
+                            "updated": {
+                                "date": "2019-09-16 15:21:40.000000",
+                                "timezone_type": 3,
+                                "timezone": "UTC"
+                            }
+                        },
+                        {
+                            "uuid": "ed5a16ae-da0a-11e9-b772-0242ac100104",
+                            "azureId": "b9cd75ae-3c15-4096-acdd-22fb73b6b626",
+                            "name": "InfoteQ + Bianca Robotics",
+                            "created": {
+                                "date": "2019-09-18 11:53:27.000000",
+                                "timezone_type": 3,
+                                "timezone": "UTC"
+                            },
+                            "updated": {
+                                "date": "2019-09-18 11:53:27.000000",
+                                "timezone_type": 3,
+                                "timezone": "UTC"
+                            }
+                        }
+                    ],
+                    "_id": "5f2aa418e55e2b2614061da3",
+                    "uuid": "ab53f964-da2d-11e9-b3ab-0242ac100104",
+                    "email": "parth@varahitechnologies.com",
+                    "status": "active",
+                    "avatar": null,
+                    "lang": "en",
+                    "detail": {
+                        "firstname": "Parth",
+                        "lastname": "Pandya",
+                        "created": {
+                            "date": "2019-09-18 16:02:09.000000",
+                            "timezone_type": 3,
+                            "timezone": "UTC"
+                        },
+                        "updated": {
+                            "date": "2019-09-18 16:02:09.000000",
+                            "timezone_type": 3,
+                            "timezone": "UTC"
+                        }
+                    },
+                    "created": {
+                        "date": "2019-09-18 16:02:09.000000",
+                        "timezone_type": 3,
+                        "timezone": "UTC"
+                    },
+                    "updated": {
+                        "date": "2019-09-18 16:02:09.000000",
+                        "timezone_type": 3,
+                        "timezone": "UTC"
+                    },
+                    "_links": {
+                        "self": {
+                            "href": "https://joiningdevelop.azurewebsites.net/user/ab53f964-da2d-11e9-b3ab-0242ac100104"
+                        }
+                    }
+                },
+                "visibility": "public"
+            },
+            "name": {
+                "translations": [
+                    {
+                        "language": "4dc17542-c33a-11e9-8d58-0242ac100002",
+                        "name": "Kundan Record 11/08/20 15:12:01"
+                    }
+                ]
+            },
+            "created": "2020-08-11T09:42:02.618Z",
+            "updated": "2020-08-11T09:42:02.619Z",
+            "__v": 0
+        }
+    ],
+    "message": "Succesfully data is search with multiple tags"
+}
+Request method:	POST
+Request URI:	http://localhost:3006/user/signIn
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "kundankotangale@varahitechnologies.com",
+    "password": "123"
+}
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 2100
+ETag: W/"834-SaUrohcUxbLF8mUpe3530cbXYJY"
+Date: Wed, 26 Aug 2020 09:53:18 GMT
+Connection: keep-alive
+
+{
+    "status": 200,
+    "data": {
+        "_id": "5f35091864a1ed18e8b9e13f",
+        "firstname": "Kundan",
+        "lang": "en",
+        "role": "Approval_Team",
+        "moduleData": {
+            "RoleName": "Approval_Team",
+            "Modules": [
+                {
+                    "moduleName": "search_joint",
+                    "access": "true",
+                    "features": [
+                        {
+                            "autocomplete": [
+                                {
+                                    "access": "true"
+                                }
+                            ],
+                            "input_field": [
+                                {
+                                    "access": "true"
+                                }
+                            ],
+                            "database_access": [
+                                {
+                                    "SEARCH": {
+                                        "access": "true"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "moduleName": "create_new_joint",
+                    "access": "true",
+                    "features": [
+                        {
+                            "add_template": [
+                                {
+                                    "ADD": {
+                                        "access": "true"
+                                    }
+                                },
+                                {
+                                    "DELETE": {
+                                        "access": "true"
+                                    }
+                                }
+                            ],
+                            "database_access": [
+                                {
+                                    "ADD": {
+                                        "access": "true"
+                                    }
+                                }
+                            ],
+                            "searchDB_for_joints": {
+                                "access": "true"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "moduleName": "create_new_worksheet",
+                    "access": "true",
+                    "features": [
+                        {
+                            "add_worksheet": [
+                                {
+                                    "ADD": {
+                                        "access": "true"
+                                    }
+                                }
+                            ],
+                            "database_access": [
+                                {
+                                    "ADD": {
+                                        "access": "true"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "moduleName": "send_to_technician",
+                    "access": "true",
+                    "features": [
+                        {
+                            "input_field": {
+                                "access": "true"
+                            },
+                            "technician_details": {
+                                "access": "true"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "moduleName": "send_for_approval",
+                    "access": "true",
+                    "features": [
+                        {
+                            "technician_inbox": {
+                                "access": "true"
+                            },
+                            "send_worksheet_to_technician_inbox": {
+                                "access": "true"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "moduleName": "search_database",
+                    "access": "true",
+                    "features": [
+                        {
+                            "database_access": [
+                                {
+                                    "SEARCH": {
+                                        "access": "true"
+                                    }
+                                }
+                            ],
+                            "input_field": {
+                                "access": "true"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "moduleName": "approve_joint",
+                    "access": "true",
+                    "features": [
+                        
+                    ]
+                },
+                {
+                    "moduleName": "send_to_engineer",
+                    "access": "true",
+                    "features": [
+                        {
+                            "database_access": [
+                                {
+                                    "SEARCH": {
+                                        "access": "true"
+                                    }
+                                }
+                            ],
+                            "inbuilt_address_book": {
+                                "access": "true"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "moduleName": "create_new_joint_request",
+                    "access": "true",
+                    "features": [
+                        {
+                            "database_access": [
+                                {
+                                    "ADD": {
+                                        "access": "true"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "moduleName": "approvals_list",
+                    "access": "true",
+                    "features": [
+                        {
+                            "approvals": [
+                                {
+                                    "ADD": {
+                                        "access": "true"
+                                    }
+                                },
+                                {
+                                    "DELETE": {
+                                        "access": "true"
+                                    }
+                                }
+                            ],
+                            "database_access": [
+                                {
+                                    "ADD": {
+                                        "access": "true"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "moduleName": "inbox",
+                    "access": "true"
+                },
+                {
+                    "moduleName": "new_job_alert",
+                    "access": "true",
+                    "features": [
+                        {
+                            "new_post_inbox": {
+                                "access": "true"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "moduleName": "language_change",
+                    "access": "true"
+                },
+                {
+                    "moduleName": "downlaod",
+                    "access": "true"
+                }
+            ]
+        },
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjM1MDkxODY0YTFlZDE4ZThiOWUxM2YiLCJpYXQiOjE1OTg0MzU1OTh9.NvqHHDlZSBe7jBWSTyNzDqkkSA2ZRVOvQ7WmKSJj1es"
+    },
+    "message": "Login successfully."
+}
+Request method:	GET
+Request URI:	http://localhost:3006/records/search/multipletags
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Auth-Token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjM1MDkxODY0YTFlZDE4ZThiOWUxM2YiLCJpYXQiOjE1OTg0MzU1OTh9.NvqHHDlZSBe7jBWSTyNzDqkkSA2ZRVOvQ7WmKSJj1es
+				Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "value": [
+        "888",
+        "9608",
+        "18"
+    ],
+    "layer": [
+        "interlayer1"
+    ],
+    "name": [
+        "Material Grade8",
+        "Joint ID8"
+    ]
+}
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 82
+ETag: W/"52-30RfxhVDzP7KeQoRcm5hHfnQg5U"
+Date: Wed, 26 Aug 2020 09:53:19 GMT
+Connection: keep-alive
+
+{
+    "status": 200,
+    "data": [
+        
+    ],
+    "message": "Succesfully data is search with multiple tags"
+}

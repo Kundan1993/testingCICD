@@ -1,0 +1,246 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-26T09:53:01.618Z",
+        "line": 120,
+        "name": "Verify search is being successfully Search records using search APIs",
+        "description": "",
+        "id": "validating-joining-database-api-s;verify-search-is-being-successfully-search-records-using-search-apis;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12804842461,
+              "status": "passed"
+            },
+            "line": 114,
+            "name": "To search the value \"88\",\"960\",\"1\", Layer is \"interlayer\" and name is \"Material Grade\",\"Joint ID\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"88\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"960\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"interlayer\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"Material Grade\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"Joint ID\"",
+                  "offset": 87
+                }
+              ],
+              "location": "StepDefination.to_search_the_value_Layer_is_and_name_is(String,String,String,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3069979895,
+              "status": "passed"
+            },
+            "line": 115,
+            "name": "user calls \"searchAPI\" with \"GET\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"searchAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefination.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7675554,
+              "status": "passed"
+            },
+            "line": 116,
+            "name": "the API call got success with status code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefination.the_API_call_got_success_with_status_code(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 125825676,
+              "status": "passed"
+            },
+            "line": 117,
+            "name": "\"message\" in response body is \"Succesfully data is search with multiple tags\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"message\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Succesfully data is search with multiple tags\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDefination.in_response_body_is(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@searchAPI"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-26T09:53:17.814Z",
+        "line": 121,
+        "name": "Verify search is being successfully Search records using search APIs",
+        "description": "",
+        "id": "validating-joining-database-api-s;verify-search-is-being-successfully-search-records-using-search-apis;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 380063300,
+              "status": "passed"
+            },
+            "line": 114,
+            "name": "To search the value \"888\",\"9608\",\"18\", Layer is \"interlayer1\" and name is \"Material Grade8\",\"Joint ID8\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"888\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"9608\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"18\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"interlayer1\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"Material Grade8\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"Joint ID8\"",
+                  "offset": 92
+                }
+              ],
+              "location": "StepDefination.to_search_the_value_Layer_is_and_name_is(String,String,String,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1369310430,
+              "status": "passed"
+            },
+            "line": 115,
+            "name": "user calls \"searchAPI\" with \"GET\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"searchAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefination.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 148278,
+              "status": "passed"
+            },
+            "line": 116,
+            "name": "the API call got success with status code \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"200\"",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefination.the_API_call_got_success_with_status_code(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Succesfully data is search with multiple tags]\u003e but was:\u003c[No record found]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat stepDefinations.StepDefination.in_response_body_is(StepDefination.java:121)\n\tat ✽.\"message\" in response body is \"No record found\"(file:src/test/java/features/joiningdb.feature:117)\n",
+              "duration": 28251543,
+              "status": "failed"
+            },
+            "line": 117,
+            "name": "\"message\" in response body is \"No record found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"message\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"No record found\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepDefination.in_response_body_is(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@searchAPI"
+          }
+        ]
+      }
+    ],
+    "name": "Validating Joining Database API\u0027s",
+    "description": "",
+    "id": "validating-joining-database-api-s",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/joiningdb.feature",
+    "tags": []
+  }
+]
