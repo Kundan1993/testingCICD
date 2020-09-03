@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-09-03T07:58:59.295Z",
+        "start_timestamp": "2020-09-03T08:04:14.551Z",
         "line": 23,
         "name": "Verify sign in is being successfully login using signIn APIs",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1891036355,
+              "duration": 1382712713,
               "status": "passed"
             },
             "line": 16,
@@ -35,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 4175164455,
+              "duration": 2921388163,
               "status": "passed"
             },
             "line": 17,
@@ -57,7 +57,7 @@
           },
           {
             "result": {
-              "duration": 3480966,
+              "duration": 27181553,
               "status": "passed"
             },
             "line": 18,
@@ -75,7 +75,7 @@
           },
           {
             "result": {
-              "duration": 752235214,
+              "duration": 956065802,
               "status": "passed"
             },
             "line": 19,
@@ -97,7 +97,7 @@
           },
           {
             "result": {
-              "duration": 34467456,
+              "duration": 38994632,
               "status": "passed"
             },
             "line": 20,

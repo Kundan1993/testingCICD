@@ -52,7 +52,7 @@ public class Utils {
 	public static String getGlobalValue(String key) throws IOException
 	{
 
-		Properties prop =new Properties();
+		Properties prop =new Properties(); 
 		FileInputStream fis =new FileInputStream("./src/test/java/resources/global.properties");
 		prop.load(fis);
 //		System.out.println(prop.getProperty(key));
