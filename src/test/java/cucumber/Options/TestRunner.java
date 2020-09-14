@@ -8,8 +8,8 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features = "src/test/java/features",
-		tags= {"@signin"},
-//		tags= {"@signup,@signin,@language,@addTemplate,@getAllTemplate,@getAllProperty,@getAllUsers,@getAllfetchProperty,@addRecords,@getAllunit,@getAlllocalization,@updateTemplate"},
+//		tags= {"@signin"},
+		tags= {"@signup,@signin,@language,@addTemplate,@getAllTemplate,@getAllProperty,@getAllUsers,@getAllfetchProperty,@addRecords,@getAllunit,@getAlllocalization,@updateTemplate"},
 		plugin ="json:target/jsonReports/joiningDB-report.json",
 		glue = {"stepDefinations"}
 		)
